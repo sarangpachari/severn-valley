@@ -9,9 +9,9 @@ const Header = () => {
   };
 
   return (
-    <div>
-      <nav className="bg-white fixed w-full z-20 top-2 start-0 border-b border-gray-200 rounded-3xl shadow-xl">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <div className="px-3">
+      <nav className="bg-white fixed w-3/4 md:w-5/6 lg:w-1/2 z-20 top-4 border-b border-gray-200 rounded-3xl shadow-xl">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2 lg:p-4">
           <Link
             to="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
