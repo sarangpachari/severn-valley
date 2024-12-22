@@ -21,7 +21,7 @@ const Header = () => {
               className="h-8"
               alt="Severn Valley Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap">
+            <span className="self-center text-lg md:text-2xl font-semibold whitespace-nowrap">
               Severn Valley
             </span>
           </Link>
