@@ -23,8 +23,8 @@ const HomeSlider = () => {
         
         <div className="relative">
           <img src={slider1} className="lg:h-screen" />
-          <div className=" absolute top-1/3 w-full">
-            <p className="lg:text-lg text-sm text-white m-5 tracking-widest">
+          <div className=" absolute lg:flex lg:flex-col lg:gap-5 lg:items-center top-1/3 w-full">
+            <p className="lg:text-6xl lg:w-1/2 lg:text-center lg:tracking-tight text-sm text-white m-5 tracking-widest">
               Discover the charm of Severn Valley—where every stay feels like
               home and every journey becomes an adventure.
             </p>
@@ -37,8 +37,8 @@ const HomeSlider = () => {
         </div>
         <div className="relative">
           <img src={slider2} className="lg:h-screen" />
-          <div className=" absolute top-1/3 w-full">
-            <p className="lg:text-lg text-sm text-white m-5 tracking-widest">
+          <div className=" absolute lg:flex lg:flex-col lg:gap-5 lg:items-center top-1/3 w-full">
+            <p className="lg:text-6xl lg:w-1/2 lg:text-center lg:tracking-tight text-sm text-white m-5 tracking-widest">
               Discover the charm of Severn Valley—where every stay feels like
               home and every journey becomes an adventure.
             </p>
@@ -51,8 +51,8 @@ const HomeSlider = () => {
         </div>
         <div className="relative">
           <img src={slider3} className="lg:h-screen" />
-          <div className=" absolute top-1/3 w-full">
-            <p className="lg:text-lg text-sm text-white m-5 tracking-widest">
+          <div className=" absolute lg:flex lg:flex-col lg:gap-5 lg:items-center top-1/3 w-full">
+            <p className="lg:text-6xl lg:w-1/2 lg:text-center lg:tracking-tight text-sm text-white m-5 tracking-widest">
               Discover the charm of Severn Valley—where every stay feels like
               home and every journey becomes an adventure.
             </p>
@@ -65,8 +65,8 @@ const HomeSlider = () => {
         </div>
         <div className="relative">
           <img src={slider4} className="lg:h-screen" />
-          <div className=" absolute top-1/3 w-full">
-            <p className="lg:text-lg text-sm text-white m-5 tracking-widest">
+          <div className=" absolute lg:flex lg:flex-col lg:gap-5 lg:items-center top-1/3 w-full">
+            <p className="lg:text-6xl lg:w-1/2 lg:text-center lg:tracking-tight text-sm text-white m-5 tracking-widest">
               Discover the charm of Severn Valley—where every stay feels like
               home and every journey becomes an adventure.
             </p>
@@ -79,8 +79,8 @@ const HomeSlider = () => {
         </div>
         <div className="relative">
           <img src={slider5} className="lg:h-screen" />
-          <div className=" absolute top-1/3 w-full">
-            <p className="lg:text-lg text-sm text-white m-5 tracking-widest">
+          <div className=" absolute lg:flex lg:flex-col lg:gap-5 lg:items-center top-1/3 w-full">
+            <p className="lg:text-6xl lg:w-1/2 lg:text-center lg:tracking-tight text-sm text-white m-5 tracking-widest">
               Discover the charm of Severn Valley—where every stay feels like
               home and every journey becomes an adventure.
             </p>
