@@ -1,11 +1,11 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import slider1 from "../assets/slider-1.png";
-import slider2 from "../assets/slider-2.png";
-import slider3 from "../assets/slider-3.png";
-import slider4 from "../assets/slider-4.png";
-import slider5 from "../assets/slider-5.png";
+import slider1 from "../assets/slider-1.webp";
+import slider2 from "../assets/slider-2.webp";
+import slider3 from "../assets/slider-3.webp";
+import slider4 from "../assets/slider-4.webp";
+import slider5 from "../assets/slider-5.webp";
 import { FaWhatsapp } from "react-icons/fa";
 
 const HomeSlider = () => {
