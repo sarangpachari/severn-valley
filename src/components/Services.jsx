@@ -18,7 +18,6 @@ const Services = () => {
 
         {/* CARDS CONTAINER */}
         <div className="flex flex-wrap justify-center">
-
           {/*TREKKING CARD */}
           <div className="w-1/2 md:w-max p-3 hover:scale-105 transition-all">
             <Link to={"/gallery-tg"}>
@@ -31,42 +30,52 @@ const Services = () => {
 
           {/* CARD */}
           <div className="w-1/2 md:w-max p-3 hover:scale-105 transition-all">
-            <img src={sightSeeingImg} alt="" className="h-52 shadow-xl" />
-            <p className="text-sm  font-bold mt-4 tracking-wide">
-              Sight Seeing Tour
-            </p>
+            <Link to={"/gallery-ss"}>
+              <img src={sightSeeingImg} alt="" className="h-52 shadow-xl" />
+              <p className="text-sm  font-bold mt-4 tracking-wide">
+                Sight Seeing Tour
+              </p>
+            </Link>
           </div>
 
           {/* CARD */}
           <div className="w-1/2 md:w-max p-3 hover:scale-105 transition-all">
-            <img src={jungleSafariImg} alt="" className="h-52 shadow-xl" />
-            <p className="text-sm  font-bold mt-4 tracking-wide">
-              Jungle Safari
-            </p>
+            <Link to={"/gallery-js"}>
+              <img src={jungleSafariImg} alt="" className="h-52 shadow-xl" />
+              <p className="text-sm  font-bold mt-4 tracking-wide">
+                Jungle Safari
+              </p>
+            </Link>
           </div>
 
           {/* CARD */}
           <div className="w-1/2 md:w-max p-3 hover:scale-105 transition-all">
-            <img src={teaGardenImg} alt="" className="h-52 shadow-xl" />
-            <p className="text-sm  font-bold mt-4 tracking-wide">
-              Tea Garden Visit
-            </p>
+            <Link to={"/gallery-teag"}>
+              <img src={teaGardenImg} alt="" className="h-52 shadow-xl" />
+              <p className="text-sm  font-bold mt-4 tracking-wide">
+                Tea Garden Visit
+              </p>
+            </Link>
           </div>
 
           {/* CARD */}
           <div className="w-1/2 md:w-max p-3 hover:scale-105 transition-all">
-            <img src={accomodationImg} alt="" className="h-52 shadow-xl" />
-            <p className="text-sm  font-bold mt-4 tracking-wide">
-              Accomodation
-            </p>
+            <Link to={"/gallery-ac"}>
+              <img src={accomodationImg} alt="" className="h-52 shadow-xl" />
+              <p className="text-sm  font-bold mt-4 tracking-wide">
+                Accomodation
+              </p>
+            </Link>
           </div>
 
           {/* CARD */}
           <div className="w-1/2 md:w-max p-3 hover:scale-105 transition-all">
-            <img src={yogaMeditationImg} alt="" className="h-52 shadow-xl" />
-            <p className="text-sm  font-bold mt-4 tracking-wide">
-              Yoga and Meditation
-            </p>
+            <Link to={"/gallery-ym"}>
+              <img src={yogaMeditationImg} alt="" className="h-52 shadow-xl" />
+              <p className="text-sm  font-bold mt-4 tracking-wide">
+                Yoga and Meditation
+              </p>
+            </Link>
           </div>
         </div>
       </div>
