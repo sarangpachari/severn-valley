@@ -2,12 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 ::-webkit-scrollbar{
     display: none;
 }
-body{
-    /* font-family: "Josefin Sans", sans-serif; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
+

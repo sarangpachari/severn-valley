@@ -3,9 +3,9 @@ import trekkingImg from "../assets/trekking-main-img.webp";
 import sightSeeingImg from "../assets/sight-seeing-main.webp";
 import jungleSafariImg from "../assets/jungle-safari-main.webp";
 import teaGardenImg from "../assets/tea-garden-main.webp";
-import accomodationImg from "../assets/accomodation-main.webp"
-import yogaMeditationImg from "../assets/yoga-meditation-main.webp"
-
+import accomodationImg from "../assets/accomodation-main.webp";
+import yogaMeditationImg from "../assets/yoga-meditation-main.webp";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -15,15 +15,20 @@ const Services = () => {
           We <span className="text-emerald-800">Provides</span>
         </h1>
         <hr className="mt-2 mb-5 w-3/4" />
+
         {/* CARDS CONTAINER */}
         <div className="flex flex-wrap justify-center">
-          {/* CARD */}
+
+          {/*TREKKING CARD */}
           <div className="w-1/2 md:w-max p-3 hover:scale-105 transition-all">
-            <img src={trekkingImg} alt="" className="h-52 shadow-xl" />
-            <p className="text-sm  font-bold mt-4 tracking-wide">
-              Trekking & Adventures
-            </p>
+            <Link to={"/gallery-tg"}>
+              <img src={trekkingImg} alt="" className="h-52 shadow-xl" />
+              <p className="text-sm  font-bold mt-4 tracking-wide">
+                Trekking & Adventures
+              </p>
+            </Link>
           </div>
+
           {/* CARD */}
           <div className="w-1/2 md:w-max p-3 hover:scale-105 transition-all">
             <img src={sightSeeingImg} alt="" className="h-52 shadow-xl" />
@@ -31,6 +36,7 @@ const Services = () => {
               Sight Seeing Tour
             </p>
           </div>
+
           {/* CARD */}
           <div className="w-1/2 md:w-max p-3 hover:scale-105 transition-all">
             <img src={jungleSafariImg} alt="" className="h-52 shadow-xl" />
@@ -38,6 +44,7 @@ const Services = () => {
               Jungle Safari
             </p>
           </div>
+
           {/* CARD */}
           <div className="w-1/2 md:w-max p-3 hover:scale-105 transition-all">
             <img src={teaGardenImg} alt="" className="h-52 shadow-xl" />
@@ -45,6 +52,7 @@ const Services = () => {
               Tea Garden Visit
             </p>
           </div>
+
           {/* CARD */}
           <div className="w-1/2 md:w-max p-3 hover:scale-105 transition-all">
             <img src={accomodationImg} alt="" className="h-52 shadow-xl" />
@@ -52,6 +60,7 @@ const Services = () => {
               Accomodation
             </p>
           </div>
+
           {/* CARD */}
           <div className="w-1/2 md:w-max p-3 hover:scale-105 transition-all">
             <img src={yogaMeditationImg} alt="" className="h-52 shadow-xl" />
@@ -61,14 +70,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-
-      
     </div>
-
-
-
-
-
   );
 };
 
