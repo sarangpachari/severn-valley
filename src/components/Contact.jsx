@@ -31,11 +31,11 @@ const Contact = () => {
             <div className="flex items-center gap-4 mt-5">
               <FaPhoneAlt className="text-xl" />
               <div className="flex flex-col gap-2">
-                <a href="tel:+917902700324">
-                  <p className="">+91 7902 700 324 </p>
-                </a>
                 <a href="tel:+919562152795">
                   <p>+91 9562 152 795</p>
+                </a>
+                <a href="tel:+917902700324">
+                  <p className="">+91 7902 700 324 </p>
                 </a>
               </div>
             </div>
