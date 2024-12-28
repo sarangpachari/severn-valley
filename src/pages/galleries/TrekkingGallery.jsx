@@ -19,10 +19,10 @@ const TrekkingGallery = () => {
         <hr className="mt-2" />
 
         {/* GALLERY */}
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap">
           {/* CARD */}
           <div className="w-max flex flex-col items-center p-3 hover:scale-105 transition-all">
-            <img src={banasuraHill} alt="" className="h-52 shadow-xl rounded-md" />
+            <img src={banasuraHill} alt="" className="md:h-52 shadow-xl rounded-md" />
             <p className="text-md mt-4 tracking-wide">
               Banasura Hill
             </p>
@@ -30,7 +30,7 @@ const TrekkingGallery = () => {
 
           {/* CARD */}
           <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-            <img src={chembraPeak} alt="" className="h-52 shadow-xl rounded-md" />
+            <img src={chembraPeak} alt="" className="md:h-52 shadow-xl rounded-md" />
             <p className="text-md mt-4 tracking-wide">
               Chembra Peak
             </p>
@@ -38,7 +38,7 @@ const TrekkingGallery = () => {
 
           {/* CARD */}
           <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-            <img src={edakkal} alt="" className="h-52 shadow-xl rounded-md" />
+            <img src={edakkal} alt="" className="md:h-52 shadow-xl rounded-md" />
             <p className="text-md mt-4 tracking-wide">
               Edakkal Caves
             </p>
@@ -46,7 +46,7 @@ const TrekkingGallery = () => {
 
           {/* CARD */}
           <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-            <img src={kurumbalakotta} alt="" className="h-52 shadow-xl rounded-md" />
+            <img src={kurumbalakotta} alt="" className="md:h-52 shadow-xl rounded-md" />
             <p className="text-md mt-4 tracking-wide">
               Kurumbalakotta Trek
             </p>
@@ -54,7 +54,7 @@ const TrekkingGallery = () => {
 
           {/* CARD */}
           <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-            <img src={meenmutty} alt="" className="h-52 shadow-xl rounded-md" />
+            <img src={meenmutty} alt="" className="md:h-52 shadow-xl rounded-md" />
             <p className="text-md mt-4 tracking-wide">
               Meenmutty Trek
             </p>
@@ -62,7 +62,7 @@ const TrekkingGallery = () => {
 
           {/* CARD */}
           <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-            <img src={pakshipathalam} alt="" className="h-52 shadow-xl rounded-md" />
+            <img src={pakshipathalam} alt="" className="md:h-52 shadow-xl rounded-md" />
             <p className="text-md mt-4 tracking-wide">
             Pakshipathalam Trek
             </p>
@@ -70,7 +70,7 @@ const TrekkingGallery = () => {
 
           {/* CARD */}
           <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-            <img src={thirunelli} alt="" className="h-52 shadow-xl rounded-md" />
+            <img src={thirunelli} alt="" className="md:h-52 shadow-xl rounded-md" />
             <p className="text-md mt-4 tracking-wide">
             Thirunelli Trek
             </p>
@@ -78,7 +78,7 @@ const TrekkingGallery = () => {
 
           {/* CARD */}
           <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-            <img src={thusharagiri} alt="" className="h-52 shadow-xl rounded-md" />
+            <img src={thusharagiri} alt="" className="md:h-52 shadow-xl rounded-md" />
             <p className="text-md mt-4 tracking-wide">
             Thusharagiri Trek
             </p>

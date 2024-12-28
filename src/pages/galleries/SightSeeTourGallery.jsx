@@ -23,10 +23,10 @@ const SightSeeTourGallery = () => {
             <hr className="mt-2" />
     
             {/* GALLERY */}
-            <div className="flex flex-wrap justify-center">
+            <div className="flex flex-wrap ">
               {/* CARD */}
               <div className="w-max flex flex-col items-center p-3 hover:scale-105 transition-all">
-                <img src={lakkidi} alt="" className="h-52 shadow-xl rounded-md" />
+                <img src={lakkidi} alt="" className="md:h-52 shadow-xl rounded-md" />
                 <p className="text-md mt-4 tracking-wide">
                   Lakkidi View Point
                 </p>
@@ -34,7 +34,7 @@ const SightSeeTourGallery = () => {
     
               {/* CARD */}
               <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-                <img src={kandi} alt="" className="h-52 shadow-xl rounded-md" />
+                <img src={kandi} alt="" className="md:h-52 shadow-xl rounded-md" />
                 <p className="text-md mt-4 tracking-wide">
                   900 Kandi
                 </p>
@@ -42,7 +42,7 @@ const SightSeeTourGallery = () => {
     
               {/* CARD */}
               <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-                <img src={edakkal} alt="" className="h-52 shadow-xl rounded-md" />
+                <img src={edakkal} alt="" className="md:h-52 shadow-xl rounded-md" />
                 <p className="text-md mt-4 tracking-wide">
                   Edakkal Caves
                 </p>
@@ -50,7 +50,7 @@ const SightSeeTourGallery = () => {
     
               {/* CARD */}
               <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-                <img src={arippara} alt="" className="h-52 shadow-xl rounded-md" />
+                <img src={arippara} alt="" className="md:h-52 shadow-xl rounded-md" />
                 <p className="text-md mt-4 tracking-wide">
                   Arippara Waterfalls
                 </p>
@@ -58,7 +58,7 @@ const SightSeeTourGallery = () => {
     
               {/* CARD */}
               <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-                <img src={banasura} alt="" className="h-52 shadow-xl rounded-md" />
+                <img src={banasura} alt="" className="md:h-52 shadow-xl rounded-md" />
                 <p className="text-md mt-4 tracking-wide">
                   Banasura Sagar Dam
                 </p>
@@ -66,7 +66,7 @@ const SightSeeTourGallery = () => {
     
               {/* CARD */}
               <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-                <img src={kanthanpara} alt="" className="h-52 shadow-xl rounded-md" />
+                <img src={kanthanpara} alt="" className="md:h-52 shadow-xl rounded-md" />
                 <p className="text-md mt-4 tracking-wide">
                 Kanthanpara Waterfalls
                 </p>
@@ -74,7 +74,7 @@ const SightSeeTourGallery = () => {
     
               {/* CARD */}
               <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-                <img src={thirunelli} alt="" className="h-52 shadow-xl rounded-md" />
+                <img src={thirunelli} alt="" className="md:h-52 shadow-xl rounded-md" />
                 <p className="text-md mt-4 tracking-wide">
                 Thirunelli Mahavishnu Temple
                 </p>
@@ -82,7 +82,7 @@ const SightSeeTourGallery = () => {
     
               {/* CARD */}
               <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-                <img src={kuruvadweep} alt="" className="h-52 shadow-xl rounded-md" />
+                <img src={kuruvadweep} alt="" className="md:h-52 shadow-xl rounded-md" />
                 <p className="text-md mt-4 tracking-wide">
                 Kuruvadweep
                 </p>
@@ -90,7 +90,7 @@ const SightSeeTourGallery = () => {
 
               {/* CARD */}
               <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-                <img src={makkiyad} alt="" className="h-52 shadow-xl rounded-md" />
+                <img src={makkiyad} alt="" className="md:h-52 shadow-xl rounded-md" />
                 <p className="text-md mt-4 tracking-wide">
                 Makkiyad Meenmutty Waterfalls
                 </p>
@@ -98,7 +98,7 @@ const SightSeeTourGallery = () => {
 
               {/* CARD */}
               <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-                <img src={phantom} alt="" className="h-52 shadow-xl rounded-md" />
+                <img src={phantom} alt="" className="md:h-52 shadow-xl rounded-md" />
                 <p className="text-md mt-4 tracking-wide">
                 Phantom Rock
                 </p>
@@ -106,7 +106,7 @@ const SightSeeTourGallery = () => {
 
               {/* CARD */}
               <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
-                <img src={pookode} alt="" className="h-52 shadow-xl rounded-md" />
+                <img src={pookode} alt="" className="md:h-52 shadow-xl rounded-md" />
                 <p className="text-md mt-4 tracking-wide">
                 Pookode Lake
                 </p>
