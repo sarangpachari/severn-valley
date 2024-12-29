@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "motion/react";
 import trekkingImg from "../assets/trekking-main-img.webp";
 import sightSeeingImg from "../assets/sight-seeing-main.webp";
 import jungleSafariImg from "../assets/jungle-safari-main.webp";
@@ -19,64 +20,92 @@ const Services = () => {
         {/* CARDS CONTAINER */}
         <div className="flex flex-wrap justify-center">
           {/*TREKKING CARD */}
-          <div className="md:w-max p-3 hover:scale-105 transition-all">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="md:w-max p-3 hover:scale-105 transition-all"
+          >
             <Link to={"/gallery-tg"}>
               <img src={trekkingImg} alt="" className="h-72 shadow-xl" />
               <p className="text-sm  font-bold mt-4 tracking-wide">
                 Trekking & Adventures
               </p>
             </Link>
-          </div>
+          </motion.div>
 
           {/* CARD */}
-          <div className="md:w-max p-3 hover:scale-105 transition-all">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="md:w-max p-3 hover:scale-105 transition-all"
+          >
             <Link to={"/gallery-ss"}>
               <img src={sightSeeingImg} alt="" className="h-72 shadow-xl" />
               <p className="text-sm  font-bold mt-4 tracking-wide">
                 Sight Seeing Tour
               </p>
             </Link>
-          </div>
+          </motion.div>
 
           {/* CARD */}
-          <div className="md:w-max p-3 hover:scale-105 transition-all">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="md:w-max p-3 hover:scale-105 transition-all"
+          >
             <Link to={"/gallery-js"}>
               <img src={jungleSafariImg} alt="" className="h-72 shadow-xl" />
               <p className="text-sm  font-bold mt-4 tracking-wide">
                 Jungle Safari
               </p>
             </Link>
-          </div>
+          </motion.div>
 
           {/* CARD */}
-          <div className="md:w-max p-3 hover:scale-105 transition-all">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="md:w-max p-3 hover:scale-105 transition-all"
+          >
             <Link to={"/gallery-teag"}>
               <img src={teaGardenImg} alt="" className="h-72 shadow-xl" />
               <p className="text-sm  font-bold mt-4 tracking-wide">
                 Tea Garden Visit
               </p>
             </Link>
-          </div>
+          </motion.div>
 
           {/* CARD */}
-          <div className="md:w-max p-3 hover:scale-105 transition-all">
+          <motion.div
+          whileInView={{opacity:1, x:0}}
+          initial={{opacity:0, x:-100}}
+          transition={{duration:1}}
+          className="md:w-max p-3 hover:scale-105 transition-all">
             <Link to={"/gallery-ac"}>
               <img src={accomodationImg} alt="" className="h-72 shadow-xl" />
               <p className="text-sm  font-bold mt-4 tracking-wide">
                 Accomodation
               </p>
             </Link>
-          </div>
+          </motion.div>
 
           {/* CARD */}
-          <div className="md:w-max p-3 hover:scale-105 transition-all">
+          <motion.div 
+          whileInView={{opacity:1, x:0}}
+          initial={{opacity:0, x:100}}
+          transition={{duration:1}}
+          className="md:w-max p-3 hover:scale-105 transition-all">
             <Link to={"/gallery-ym"}>
               <img src={yogaMeditationImg} alt="" className="h-72 shadow-xl" />
               <p className="text-sm  font-bold mt-4 tracking-wide">
                 Yoga and Meditation
               </p>
             </Link>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
