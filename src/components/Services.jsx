@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import trekkingImg from "../assets/trekking-main-img.webp";
 import sightSeeingImg from "../assets/sight-seeing-main.webp";
 import jungleSafariImg from "../assets/jungle-safari-main.webp";
