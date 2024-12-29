@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <div>
+    <div id="services">
       <div className="p-5">
         <h1 className="lg:text-3xl lg:font-medium text-2xl  tracking-tighter">
           We <span className="text-emerald-800">Provides</span>

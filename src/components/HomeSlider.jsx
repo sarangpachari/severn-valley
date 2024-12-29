@@ -100,7 +100,7 @@ const HomeSlider = () => {
 
       <div className="px-16 py-5 w-full">
         <a href="tel:+919562152795">
-          <button className="text-red-600 animate-pulse flex gap-2 items-center justify-center border-red-600 border-2 px-4 w-full  lg:py-3 py-2 mb-2 rounded hover:bg-green-600 hover:text-white">
+          <button className="text-red-600 animate-pulse flex gap-2 items-center justify-center border-red-600 border-2 px-4 w-full  lg:py-3 py-2 mb-2 rounded hover:bg-red-600 hover:text-white">
            <FaPhoneAlt  /> Call Now
           </button>
         </a>
