@@ -84,20 +84,20 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  href="#services"
+                <Link
+                  to="/activities"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0"
                 >
                   We Provides
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#contact"
+                <Link
+                  to="/contact"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -39,6 +39,7 @@ const Gallery = () => {
   return (
     <div style={{ paddingTop: "100px" }} className="p-5">
       {/* TREKKING */}
+
       <div className="mt-10">
         <h1 className="text-blue-950 text-xl lg:text-3xl tracking-tight">
           Trekking <span className=" text-green-600">&</span>{" "}
@@ -56,6 +57,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Banasura Hill</p>
+            <p className="text-sm font-serif font-semibold text-green-600">
+              35 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -66,6 +70,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Chembra Peak</p>
+            <p className="text-sm font-serif font-semibold text-red-600">
+              20 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -76,6 +83,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Edakkal Caves</p>
+            <p className="text-sm font-serif font-semibold text-green-600">
+              30 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -86,6 +96,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Kurumbalakotta Trek</p>
+            <p className="text-sm font-serif font-semibold text-red-600">
+              27 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -96,6 +109,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Meenmutty Trek</p>
+            <p className="text-sm font-serif font-semibold text-green-600">
+              28 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -106,6 +122,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Pakshipathalam Trek</p>
+            <p className="text-sm font-serif font-semibold text-red-600">
+              56 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -116,6 +135,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Thirunelli Trek</p>
+            <p className="text-sm font-serif font-semibold text-green-600">
+              56 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -126,6 +148,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Thusharagiri Trek</p>
+            <p className="text-sm font-serif font-semibold text-red-600">
+              28 km
+            </p>
           </div>
         </div>
       </div>
@@ -148,22 +173,31 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Lakkidi View Point</p>
+            <p className="text-sm font-serif font-semibold text-green-600">
+              14 km
+            </p>
           </div>
 
           {/* CARD */}
           <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
             <img src={kandi} alt="" className="md:h-52 shadow-xl rounded-md" />
             <p className="text-md mt-4 tracking-wide">900 Kandi</p>
+            <p className="text-sm font-serif font-semibold text-red-600">
+              19 km
+            </p>
           </div>
 
           {/* CARD */}
           <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
             <img
-              src={edakkal2}
+              src={edakkal}
               alt=""
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Edakkal Caves</p>
+            <p className="text-sm font-serif font-semibold text-green-600">
+              30 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -174,6 +208,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Arippara Waterfalls</p>
+            <p className="text-sm font-serif font-semibold text-red-600">
+              34 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -184,6 +221,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Banasura Sagar Dam</p>
+            <p className="text-sm font-serif font-semibold text-green-600">
+              27 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -194,17 +234,23 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Kanthanpara Waterfalls</p>
+            <p className="text-sm font-serif font-semibold text-red-600">
+              17 km
+            </p>
           </div>
 
           {/* CARD */}
           <div className="w-max flex flex-col justify-center items-center p-3 hover:scale-105 transition-all">
             <img
-              src={thirunelli2}
+              src={thirunelli}
               alt=""
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">
               Thirunelli Mahavishnu Temple
+            </p>
+            <p className="text-sm font-serif font-semibold text-green-600">
+              58 km
             </p>
           </div>
 
@@ -216,6 +262,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Kuruvadweep</p>
+            <p className="text-sm font-serif font-semibold text-red-600">
+              43 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -228,6 +277,9 @@ const Gallery = () => {
             <p className="text-md mt-4 tracking-wide">
               Makkiyad Meenmutty Waterfalls
             </p>
+            <p className="text-sm font-serif font-semibold text-green-600">
+              48 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -238,6 +290,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Phantom Rock</p>
+            <p className="text-sm font-serif font-semibold text-red-600">
+              28 km
+            </p>
           </div>
 
           {/* CARD */}
@@ -248,6 +303,9 @@ const Gallery = () => {
               className="md:h-52 shadow-xl rounded-md"
             />
             <p className="text-md mt-4 tracking-wide">Pookode Lake</p>
+            <p className="text-sm font-serif font-semibold text-green-600">
+              10 km
+            </p>
           </div>
         </div>
       </div>

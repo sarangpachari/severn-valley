@@ -26,6 +26,7 @@ const TrekkingGallery = () => {
             <p className="text-md mt-4 tracking-wide">
               Banasura Hill
             </p>
+            <p className="text-sm font-serif font-semibold text-green-600">35 km</p>
           </div>
 
           {/* CARD */}
@@ -34,6 +35,7 @@ const TrekkingGallery = () => {
             <p className="text-md mt-4 tracking-wide">
               Chembra Peak
             </p>
+            <p className="text-sm font-serif font-semibold text-red-600">20 km</p>
           </div>
 
           {/* CARD */}
@@ -42,6 +44,7 @@ const TrekkingGallery = () => {
             <p className="text-md mt-4 tracking-wide">
               Edakkal Caves
             </p>
+            <p className="text-sm font-serif font-semibold text-green-600">30 km</p>
           </div>
 
           {/* CARD */}
@@ -50,6 +53,7 @@ const TrekkingGallery = () => {
             <p className="text-md mt-4 tracking-wide">
               Kurumbalakotta Trek
             </p>
+            <p className="text-sm font-serif font-semibold text-red-600">27 km</p>
           </div>
 
           {/* CARD */}
@@ -58,6 +62,7 @@ const TrekkingGallery = () => {
             <p className="text-md mt-4 tracking-wide">
               Meenmutty Trek
             </p>
+            <p className="text-sm font-serif font-semibold text-green-600">28 km</p>
           </div>
 
           {/* CARD */}
@@ -66,6 +71,7 @@ const TrekkingGallery = () => {
             <p className="text-md mt-4 tracking-wide">
             Pakshipathalam Trek
             </p>
+            <p className="text-sm font-serif font-semibold text-red-600">56 km</p>
           </div>
 
           {/* CARD */}
@@ -74,6 +80,7 @@ const TrekkingGallery = () => {
             <p className="text-md mt-4 tracking-wide">
             Thirunelli Trek
             </p>
+            <p className="text-sm font-serif font-semibold text-green-600">56 km</p>
           </div>
 
           {/* CARD */}
@@ -82,6 +89,7 @@ const TrekkingGallery = () => {
             <p className="text-md mt-4 tracking-wide">
             Thusharagiri Trek
             </p>
+            <p className="text-sm font-serif font-semibold text-red-600">28 km</p>
           </div>
         </div>
       </div>

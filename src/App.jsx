@@ -15,6 +15,7 @@ import { useEffect, useState } from "react";
 
 import Loader from "./components/loader/Loader";
 import Services from "./pages/Services";
+import Contact from "./components/Contact";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -39,6 +40,7 @@ function App() {
             <Header />
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="/activities" element={<Services />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/gallery-tg" element={<TrekkingGallery />} />
