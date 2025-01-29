@@ -1,5 +1,6 @@
 import React from "react";
 import accomodationImg from "../assets/accomodation-main.jpeg";
+import toursAndActivitiesMainImg from "../assets/toursAndActivitiesMainImg.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -23,8 +24,8 @@ const Provides = () => {
             className="md:w-max p-3 hover:scale-105 transition-all"
           >
             <Link to={"/gallery-ac"}>
-              <img src={accomodationImg} alt="" className="h-72 shadow-xl" />
-              <p className="text-sm  font-bold mt-4 tracking-wide">
+              <img src={accomodationImg} alt="" className="h-72 rounded-2xl shadow-xl" />
+              <p className="text-md font-semibold mt-4 ml-4 tracking-wide">
                 Accomodation
               </p>
             </Link>
@@ -38,9 +39,9 @@ const Provides = () => {
             className="md:w-max p-3 hover:scale-105 transition-all"
           >
             <Link to={"/activities"}>
-              <img src={accomodationImg} alt="" className="h-72 shadow-xl" />
-              <p className="text-sm  font-bold mt-4 tracking-wide">
-                Activities
+              <img src={toursAndActivitiesMainImg} alt="" className="h-72 rounded-2xl shadow-xl" />
+              <p className="text-md font-semibold mt-4 ml-4 tracking-wide">
+                Tours & Activities
               </p>
             </Link>
           </motion.div>
